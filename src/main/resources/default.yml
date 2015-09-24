@@ -1,0 +1,3 @@
+motds:
+  example: "&6HI, THIS IS SERVER"
+on start: example

@@ -1,0 +1,12 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.Entry
+version: ${project.version}
+author: ghowden/Eluinhost
+database: false
+commands:
+  gamestatus:
+    description: Set the current game status MOTD
+permissions:
+  uhc.gamestatus:
+    description: Allows use of the /gamestatus command
+    default: op
